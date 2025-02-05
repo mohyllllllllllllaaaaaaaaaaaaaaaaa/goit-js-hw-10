@@ -60,15 +60,15 @@ button:hover {
 button:active{
   background: #4e75ff;
 }
-.text{
+#datetime-picker{
   border-radius: 4px;
 width: 272px;
 height: 40px;
 border-color: #808080;
 }
-.text:hover{
+#datetime-picker:hover{
   border-color: #000;
 }
-.text:active{
+#datetime-picker:active{
   border-color: #4e75ff;
 }
