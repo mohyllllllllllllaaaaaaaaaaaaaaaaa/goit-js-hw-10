@@ -18,6 +18,7 @@ let timerInterval = null;
 
 
 function validateSelectedDate(selectedDates) {
+  console.log(selectedDates);
   if (selectedDates[0] < new Date()) {
     iziToast.error({
       title: "Alarm",
