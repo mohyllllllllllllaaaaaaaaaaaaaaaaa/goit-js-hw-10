@@ -19,7 +19,7 @@ refs.form.addEventListener('submit', (event) => {
         iziToast.error({
             title: "Error",
             message: "Please select a state!",
-            position: "bottomRight"
+            position: "topRight"
         });
         return;
     }
@@ -39,7 +39,7 @@ refs.form.addEventListener('submit', (event) => {
         iziToast.success({
             title: "Success",
             message: `✅ Fulfilled promise in ${delay}ms`,
-            position: "bottomRight"
+            position: "topRight"
         });
     })
     .catch((delay) => {
