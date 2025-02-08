@@ -23,7 +23,8 @@ function validateSelectedDate(selectedDates) {
     iziToast.error({
       title: "Alarm",
       message: "Please choose a date in the future",
-      position: "topRight"
+      position: "topRight",
+      color: "red"
     });
     refs.startBtn.disabled = true;
   } else {

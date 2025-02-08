@@ -1,6 +1,6 @@
 
 import iziToast from "izitoast";
-import "izitoast/dist/css/iziToast.min.css";
+import "izitoast/dist/css/iziToast.min.css";//колір алертів не змінюю бо сторінка бібліотеки не є безпечною
 
 const refs = {
     form: document.querySelector(".form"),
@@ -13,7 +13,7 @@ refs.form.addEventListener('submit', (event) => {
     event.preventDefault();
 
     const delay = parseInt(refs.delayInput.value, 10);
-    const selectedState = document.querySelector('input[name="state"]:checked'); // виправлено
+    const selectedState = document.querySelector('input[name="state"]:checked'); 
 
     if (!selectedState) {
         iziToast.error({
